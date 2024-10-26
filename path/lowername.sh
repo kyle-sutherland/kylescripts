@@ -1,4 +1,5 @@
 #!/bin/zsh
+# This script renames all files in the current working directory to lowercase
 rename_files() {
   for file in *; do
     local name_lower=${file:l}
