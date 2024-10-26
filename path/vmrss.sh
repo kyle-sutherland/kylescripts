@@ -1,4 +1,15 @@
 #!/bin/bash
+# This script takes an PID as an argument and continuously prints the memory usage in KB.
+### fzh completion for zsh: ####
+# _fzf_complete_vmrss() {
+#   _fzf_complete --multi --reverse --prompt="vmrss> " -- "$@" < <(
+#     ps axo user,pid,ppid,start,time,comm
+#   )
+# }
+# _fzf_complete_vmrss_post() {
+#   awk '{print $2}'
+# }
+
 # Check if PID is provided as an argument
 if [ "$1" = "" ]; then
   echo "Usage: $0 <pid>"

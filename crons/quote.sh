@@ -1,6 +1,9 @@
 #!/bin/bash
 
 # Define an array of excluded authors
+# I don't find any of these to be an inspiring presence in my terminal.
+# So add a name to the array and if it matches with the author of a quote you get,
+# the script will ask for a new one after 100ms debounce.
 excluded_authors=(
   "Ayn Rand"
   "Charles Darwin"
