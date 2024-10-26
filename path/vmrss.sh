@@ -1,6 +1,6 @@
 #!/bin/bash
 # This script takes an PID as an argument and continuously prints the memory usage in KB.
-### fzh completion for zsh: ####
+### fzh completion for zsh (lets you fuzzy search process by name): ####
 # _fzf_complete_vmrss() {
 #   _fzf_complete --multi --reverse --prompt="vmrss> " -- "$@" < <(
 #     ps axo user,pid,ppid,start,time,comm
