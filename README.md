@@ -4,7 +4,7 @@ Welcome to my collection of personal shell scripts! Here, you’ll find various 
 
 ## What's Inside
 
-Each script is unique and aims to simplify or automate everyday tasks. Feel free to explore and adapt them for your own use. I’ll try to keep everything well-organized and documented, so don’t hesitate to dive in.
+Each script is unique and aims to simplify or automate everyday tasks. Feel free to explore and adapt them for your own use. I’ll try to keep everything well-organized and documented, so don’t hesitate to dive in. Pay attention to the shebang at the top of each script! I wrote most of these when I still used bash, and bash scripts are still my default but some of them will only work in zsh.
 
 ## Repository Organization
 
