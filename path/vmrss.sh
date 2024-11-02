@@ -30,7 +30,6 @@ if [ -f /proc/"$pid"/status ]; then
   
   # Continuous loop to print VmRSS with a 2-second delay
   while true; do
-    tput cuu 1 && tput el
     awk '/VmRSS/ {print $0}' < /proc/"$pid"/status 
     sleep 2
   done
